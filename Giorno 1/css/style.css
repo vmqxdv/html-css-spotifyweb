@@ -4,6 +4,7 @@
   font-family: "Montserrat", serif;
   text-decoration: none;
   list-style-type: none;
+  box-sizing: border-box;
 }
 
 .grey-1 {
