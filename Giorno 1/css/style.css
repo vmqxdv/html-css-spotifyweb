@@ -87,7 +87,7 @@ menu .top-nav ul li a {
   margin-bottom: 0.8rem;
 }
 
-menu .top-nav span {
+menu .top-nav a img {
   width: 2rem;
   height: 2rem;
   display: flex;
@@ -183,6 +183,16 @@ footer {
 
 
 @media screen and (max-width: 480px) {
+
+  menu .logo-main,
+  .playlists,
+  hr,
+  .user-name {
+    display: none;
+  }
+  
+  
+  
   
   body {
     background-color: rebeccapurple;
@@ -191,13 +201,31 @@ footer {
 
 
 
+  menu {
+    width: 4rem;
+  }
+
   menu .logo-main {
     display: none;
   }
 
   menu .logo-mobile {
     display: block;
-    width: 3rem;
+    width: 2rem;
+    margin-bottom: 1rem;
   }
+
   
+  menu .top-nav a,
+  .down .app-download a {
+    font-size: 0;
+  }
+
+
+
+
+  main .ad {
+    width: calc(100vw - 4rem);
+  }
+
 }
