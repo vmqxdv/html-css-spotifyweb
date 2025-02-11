@@ -30,10 +30,17 @@
 
 
 
-.container {
+.main-container {
   display: flex;
   flex-direction: column;
   max-height: 100vh;
+}
+
+
+
+
+.container {
+  display: flex;
 }
 
 
@@ -49,7 +56,7 @@ body {
 menu {
   background-color: black;
   width: 18rem;
-  height: 100vh;
+  height: calc(100vh - 6rem);
   padding: 1rem;
   position: relative;
 }
@@ -149,6 +156,15 @@ menu .top-nav span {
   padding: 0.1rem 0.3rem;
   border-radius: 50%;
   margin-right: 0.5rem;
+}
+
+
+
+
+main .ad {
+  background-color: #10151b;
+  height: 6rem;
+  width: calc(100vw - 18rem);
 }
 
 
