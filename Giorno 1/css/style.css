@@ -10,6 +10,10 @@
   color: #5c5c5c;
 }
 
+.grey-2 {
+  color: #848484;
+}
+
 .white-1 {
   color: white;
 }
@@ -63,4 +67,19 @@ menu .top-nav span {
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
+}
+
+
+.playlists h3 {
+  margin-bottom: 1rem;
+}
+
+.playlists .crea-play {
+  margin-bottom: 1.5rem;
+}
+
+.playlists .crea-play span {
+  background-color: #848484;
+  padding: 0.4rem 0.6rem;
+  margin-right: 0.5rem;
 }
