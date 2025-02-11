@@ -49,7 +49,7 @@ menu .top-nav ul {
   margin-bottom: 2rem;
 }
 
-menu .top-nav ul li {
+menu .top-nav ul li a {
   display: flex;
   align-items: center;
   gap: 0.5rem;
