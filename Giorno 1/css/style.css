@@ -83,3 +83,7 @@ menu .top-nav span {
   padding: 0.4rem 0.6rem;
   margin-right: 0.5rem;
 }
+
+.playlists .play-lista ul li {
+  margin-bottom: 0.8rem;
+}
