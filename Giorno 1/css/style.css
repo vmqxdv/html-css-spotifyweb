@@ -23,6 +23,9 @@
   color: black;
 }
 
+.icon {
+  filter: invert(36%) sepia(7%) saturate(24%) hue-rotate(318deg) brightness(95%) contrast(88%);
+}
 
 
 
