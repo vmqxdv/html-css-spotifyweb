@@ -87,3 +87,38 @@ menu .top-nav span {
 .playlists .play-lista ul li {
   margin-bottom: 0.8rem;
 }
+
+
+
+
+.down .app-download span {
+  font-size: 1.5rem;
+}
+
+
+.down .app-download {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.down hr {
+  border: 1px solid #848484;
+  margin-bottom: 0.8rem;
+}
+
+
+.down .user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.down .user-profile .user-image {
+  width: 1.5rem;
+  background-color: #5c5c5c;
+  padding: 0.1rem 0.3rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
