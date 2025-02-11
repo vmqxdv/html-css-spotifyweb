@@ -29,6 +29,16 @@
 
 
 
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+}
+
+
+
+
 body {
   background-color: #141923;
 }
@@ -139,4 +149,12 @@ menu .top-nav span {
   padding: 0.1rem 0.3rem;
   border-radius: 50%;
   margin-right: 0.5rem;
+}
+
+
+
+
+footer {
+  background-color: #282828;
+  height: 6rem;
 }
