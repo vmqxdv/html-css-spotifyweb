@@ -67,6 +67,10 @@ menu .logo-main {
   margin-bottom: 1rem;
 }
 
+menu .logo-mobile {
+  display: none;
+}
+
 menu .logo-main img {
   width: 15rem;
 }
@@ -173,4 +177,27 @@ main .ad {
 footer {
   background-color: #282828;
   height: 6rem;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+  
+  body {
+    background-color: rebeccapurple;
+  }
+
+
+
+
+  menu .logo-main {
+    display: none;
+  }
+
+  menu .logo-mobile {
+    display: block;
+    width: 3rem;
+  }
+  
 }
