@@ -23,8 +23,8 @@
   color: black;
 }
 
-.icon {
-  filter: invert(36%) sepia(7%) saturate(24%) hue-rotate(318deg) brightness(95%) contrast(88%);
+.icon-gray-1 {
+  filter: invert(53%) sepia(1%) saturate(1155%) hue-rotate(317deg) brightness(98%) contrast(85%);
 }
 
 
@@ -40,17 +40,18 @@ menu {
   background-color: black;
   width: 18rem;
   height: 100vh;
-  padding: 0.5vw;
+  padding: 1rem;
+  position: relative;
 }
 
 
 
 menu .logo-main {
-  margin-bottom: 1vw;
+  margin-bottom: 1rem;
 }
 
 menu .logo-main img {
-  width: 12vw;
+  width: 15rem;
 }
 
 
@@ -93,6 +94,19 @@ menu .top-nav span {
 
 
 
+
+.down {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+}
+
+
+.down .app-download {
+  margin-bottom: 0.5rem;
+}
 
 .down .app-download a {
   display: flex;
