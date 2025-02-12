@@ -163,9 +163,19 @@ menu .top-nav a img {
 
 
 main .ad {
-  background-color: #10151b;
-  height: 6rem;
+  background-color: #080b12;
   width: calc(100vw - 18rem);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 1.5rem 1rem;
+}
+
+main .ad a {
+  border: 2px white solid;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  font-weight: 500;
 }
 
 
