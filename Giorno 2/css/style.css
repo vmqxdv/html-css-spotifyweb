@@ -245,6 +245,13 @@ main .navigation a {
   font-weight: 600;
 }
 
+/* DA RIVEDERE */
+main .navigation a:hover {
+  color: #848484;
+  border-bottom: 3px #a2ef2c solid;
+  border-bottom-width: 10%;
+}
+
 
 main .recent {
   margin-left: 2rem;
@@ -288,6 +295,7 @@ main .creato-per-user {
   margin-left: 2rem;
   margin-bottom: 2.5rem;
 }
+
 
 main .artisti-popolari {
   margin-left: 2rem;
