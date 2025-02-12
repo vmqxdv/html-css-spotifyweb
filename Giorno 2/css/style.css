@@ -62,6 +62,10 @@ menu {
   flex-direction: column;
 }
 
+menu a {
+  font-weight: 600;
+}
+
 
 
 menu .logo-main {
