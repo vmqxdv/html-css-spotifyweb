@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", serif;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.grey-1 {
+  color: #5c5c5c;
+}
+
+.grey-2 {
+  color: #848484;
+}
+
+.white-1 {
+  color: white;
+}
+
+.black-1 {
+  color: black;
+}
+
+.icon-gray-1 {
+  filter: invert(53%) sepia(1%) saturate(1155%) hue-rotate(317deg) brightness(98%) contrast(85%);
+}
+
+
+
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+}
+
+
+
+
+.container {
+  display: flex;
+}
+
+
+
+
+body {
+  background-color: #141923;
+}
+
+
+
+
+menu {
+  background-color: black;
+  width: 18rem;
+  height: calc(100vh - 6rem);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+menu .logo-main {
+  margin-bottom: 1rem;
+}
+
+menu .logo-mobile {
+  display: none;
+}
+
+menu .logo-main img {
+  width: 15rem;
+}
+
+
+menu .top-nav ul {
+  margin-bottom: 2rem;
+}
+
+menu .top-nav ul li a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+menu .top-nav a img {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+
+.playlists h3 {
+  margin-bottom: 1rem;
+}
+
+.playlists .crea-play {
+  margin-bottom: 1.5rem;
+}
+
+.playlists .crea-play span {
+  background-color: #848484;
+  padding: 0.4rem 0.6rem;
+  margin-right: 0.5rem;
+}
+
+.playlists .play-lista ul li {
+  margin-bottom: 0.8rem;
+}
+
+
+
+
+.down {
+  margin-top: auto;
+}
+
+
+.down .app-download {
+  margin-bottom: 0.5rem;
+}
+
+.down .app-download a {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.down .app-download img {
+  width: 2rem;
+  height: 2rem;
+  display: block;
+}
+
+
+.down hr {
+  border: 1px solid #848484;
+  margin-bottom: 0.8rem;
+}
+
+
+.down .user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.down .user-profile .user-image {
+  width: 2rem;
+  background-color: #5c5c5c;
+  padding: 0.1rem 0.3rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+
+
+
+main .ad {
+  background-color: #10151b;
+  height: 6rem;
+  width: calc(100vw - 18rem);
+}
+
+
+
+
+footer {
+  background-color: #282828;
+  height: 6rem;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+  menu .logo-main,
+  .playlists,
+  hr,
+  .user-name {
+    display: none;
+  }
+  
+  
+  
+  
+  body {
+    background-color: rebeccapurple;
+  }
+
+
+
+
+  menu {
+    width: 4rem;
+  }
+
+  menu .logo-main {
+    display: none;
+  }
+
+  menu .logo-mobile {
+    display: block;
+    width: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  
+  menu .top-nav a,
+  .down .app-download a {
+    font-size: 0;
+  }
+
+
+
+
+  main .ad {
+    width: calc(100vw - 4rem);
+  }
+
+}
