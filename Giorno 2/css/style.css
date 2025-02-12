@@ -132,7 +132,7 @@ menu .top-nav a img {
 
 
 .down .app-download {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
 }
 
 .down .app-download a {
@@ -143,8 +143,7 @@ menu .top-nav a img {
 }
 
 .down .app-download img {
-  width: 2rem;
-  height: 2rem;
+  width: 1.2rem;
   display: block;
 }
 
@@ -165,7 +164,7 @@ menu .top-nav a img {
   background-color: #5c5c5c;
   padding: 0.1rem 0.3rem;
   border-radius: 50%;
-  margin-right: 0.5rem;
+  margin-right: 0.8rem;
 }
 
 
