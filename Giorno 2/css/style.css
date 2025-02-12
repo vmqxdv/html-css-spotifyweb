@@ -108,7 +108,7 @@ menu .top-nav a img {
 
 menu .top-nav a:hover {
   border-left: 3px #a2ef2c solid;
-  padding-left: calc(1rem - 2px);
+  padding-left: calc(1rem - 2px); /* Fatto apposta lasciare un px di differenza */
   color: white;
 }
 
