@@ -139,6 +139,14 @@ menu .top-nav a:hover img {
   margin-bottom: 0.8rem;
 }
 
+.playlists a:hover {
+  color: white;
+}
+
+.playlists a:hover span {
+  background-color: white;
+}
+
 
 
 
@@ -181,6 +189,18 @@ menu .top-nav a:hover img {
   padding: 0.1rem 0.3rem;
   border-radius: 50%;
   margin-right: 0.8rem;
+}
+
+.down .app-download .grey-1:hover {
+  color: white;
+}
+
+.down .app-download .grey-1:hover img {
+  filter: none
+}
+
+.down .user-profile .user-name a:hover {
+  text-decoration: underline;
 }
 
 
