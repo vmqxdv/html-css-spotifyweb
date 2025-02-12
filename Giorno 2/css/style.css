@@ -27,6 +27,13 @@
   filter: invert(53%) sepia(1%) saturate(1155%) hue-rotate(317deg) brightness(98%) contrast(85%);
 }
 
+.padding-1rem {
+  padding: 1rem;
+}
+
+.padding-l-1rem {
+  padding-left: 1rem;
+}
 
 
 
@@ -57,7 +64,6 @@ menu {
   background-color: black;
   width: 18rem;
   height: calc(100vh - 6rem);
-  padding: 1rem;
   display: flex;
   flex-direction: column;
 }
@@ -101,6 +107,16 @@ menu .top-nav a img {
   height: 2rem;
   display: flex;
   font-size: 1.5rem;
+}
+
+menu .top-nav a:hover {
+  border-left: 2px #a2ef2c solid;
+  padding-left: calc(1rem - 2px);
+  color: white;
+}
+
+menu .top-nav a:hover img {
+  filter: none
 }
 
 
