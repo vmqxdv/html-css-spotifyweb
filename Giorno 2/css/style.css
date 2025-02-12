@@ -208,9 +208,9 @@ menu .top-nav a:hover img {
 
 
 
-.ad {
+main .ad {
   background-color: #080b12;
-  width: calc(100vw - 18rem);
+  max-width: calc(100vw - 18rem);
   display: flex;
   align-items: center;
   justify-content: end;
@@ -218,7 +218,7 @@ menu .top-nav a:hover img {
   margin-bottom: 1rem;
 }
 
-.ad a {
+main .ad a {
   border: 2px white solid;
   padding: 1rem 3rem;
   border-radius: 2rem;
@@ -231,6 +231,7 @@ menu .top-nav a:hover img {
 main {
   flex: 1;
   overflow-y: auto;
+  max-height: calc(100vh - 6rem);
 }
 
 main .navigation ul {
