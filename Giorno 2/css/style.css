@@ -74,9 +74,6 @@ menu a {
 
 
 
-menu .logo-main {
-  margin-bottom: 1rem;
-}
 
 menu .logo-main > img {
   max-width: 11rem;
@@ -110,7 +107,7 @@ menu .top-nav a img {
 }
 
 menu .top-nav a:hover {
-  border-left: 2px #a2ef2c solid;
+  border-left: 3px #a2ef2c solid;
   padding-left: calc(1rem - 2px);
   color: white;
 }
