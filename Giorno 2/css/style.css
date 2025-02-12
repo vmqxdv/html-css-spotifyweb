@@ -35,6 +35,10 @@
   padding-left: 1rem;
 }
 
+.text-align-center {
+  text-align: center;
+}
+
 
 
 .main-container {
@@ -55,7 +59,7 @@
 
 
 body {
-  background-color: #141923;
+  background-color: #141922;
 }
 
 
@@ -233,10 +237,64 @@ main .navigation ul {
   display: flex;
   justify-content: center;
   gap: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 main .navigation a {
   font-weight: 600;
+}
+
+
+main .recent {
+  margin-left: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+main .titolo {
+  margin-bottom: 2rem;
+}
+
+main h3 {
+  font-size: 1.5rem;
+}
+
+main h4 {
+  font-size: 0.8rem;
+  margin-top: 0.8rem;
+}
+
+main ul {
+  display: flex;
+  gap: 1rem
+}
+
+main ul li {
+  max-width: 11.5rem;
+}
+
+main ul li img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+main ul li h5 {
+  font-size: 1rem;
+  margin-bottom: .4rem;
+}
+
+
+main .creato-per-user {
+  margin-left: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+main .artisti-popolari {
+  margin-left: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+main .artisti-popolari ul li img {
+  border-radius: 50%;
 }
 
 
