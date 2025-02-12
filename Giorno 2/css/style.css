@@ -325,8 +325,8 @@ footer {
     padding: 0 0.5rem
   }
 
-  main ul li img {
-    max-width: 10rem;
+  main ul li {
+    max-width: 5rem;
   }
 
 }
@@ -334,7 +334,7 @@ footer {
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
 
   menu .logo-main,
   .playlists,
@@ -346,15 +346,8 @@ footer {
   
   
   
-  body {
-    background-color: rebeccapurple;
-  }
-
-
-
-
   menu {
-    width: 4rem;
+    width: 50px
   }
 
   menu .logo-main {
@@ -363,7 +356,7 @@ footer {
 
   menu .logo-mobile {
     display: block;
-    width: 2rem;
+    max-width: 2rem;
     margin-bottom: 1rem;
   }
 
@@ -374,10 +367,38 @@ footer {
   }
 
 
+  menu .top-nav ul {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    gap: 0;
+  }
+
+  .padding-l-1rem {
+    padding-left: 0;
+  }
+
+  menu .top-nav a:hover {
+    border-left: 3px #a2ef2c solid;
+    padding-left: calc(0.5rem - 2px); /* Fatto apposta lasciare un px di differenza */
+    color: white;
+  }
+
+
+  .down .user-profile .user-image {
+    margin: 0;
+  }
+
+
 
 
   main .ad {
-    width: calc(100vw - 4rem);
+    max-width: calc(100vw - 50px);
+  }
+
+
+  main ul li {
+    max-width: 44.5%;
   }
 
 }
