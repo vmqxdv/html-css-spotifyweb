@@ -68,6 +68,10 @@ menu .logo-main {
   margin-bottom: 1rem;
 }
 
+menu .logo-main > img {
+  max-width: 11rem;
+}
+
 menu .logo-mobile {
   display: none;
 }
