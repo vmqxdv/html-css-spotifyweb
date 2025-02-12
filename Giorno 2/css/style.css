@@ -40,13 +40,14 @@
 .main-container {
   display: flex;
   flex-direction: column;
-  max-height: 100vh;
+  height: 100vh;
 }
 
 
 
 
 .container {
+  flex: 1;
   display: flex;
 }
 
@@ -203,20 +204,39 @@ menu .top-nav a:hover img {
 
 
 
-main .ad {
+.ad {
   background-color: #080b12;
   width: calc(100vw - 18rem);
   display: flex;
   align-items: center;
   justify-content: end;
   padding: 1.5rem 1rem;
+  margin-bottom: 1rem;
 }
 
-main .ad a {
+.ad a {
   border: 2px white solid;
   padding: 1rem 3rem;
   border-radius: 2rem;
   font-weight: 500;
+}
+
+
+
+
+main {
+  flex: 1;
+  overflow-y: auto;
+}
+
+main .navigation ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+main .navigation a {
+  font-weight: 600;
 }
 
 
