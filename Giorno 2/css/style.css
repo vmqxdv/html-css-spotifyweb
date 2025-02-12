@@ -67,7 +67,7 @@ body {
 
 menu {
   background-color: black;
-  width: 18rem;
+  width: 230px;
   height: calc(100vh - 6rem);
   display: flex;
   flex-direction: column;
@@ -210,7 +210,7 @@ menu .top-nav a:hover img {
 
 main .ad {
   background-color: #080b12;
-  max-width: calc(100vw - 18rem);
+  max-width: calc(100vw - 230px);
   display: flex;
   align-items: center;
   justify-content: end;
@@ -237,6 +237,7 @@ main {
 main .navigation ul {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 2rem;
   margin-bottom: 2.5rem;
 }
@@ -273,6 +274,7 @@ main h4 {
 
 main ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem
 }
 
@@ -312,6 +314,19 @@ main .artisti-popolari ul li img {
 footer {
   background-color: #282828;
   height: 6rem;
+}
+
+
+
+
+@media screen and (max-width: 998px) {
+  
+  
+
+  main ul li img {
+    max-width: 10rem;
+  }
+
 }
 
 
