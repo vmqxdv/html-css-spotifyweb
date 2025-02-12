@@ -321,7 +321,9 @@ footer {
 
 @media screen and (max-width: 998px) {
   
-  
+  main .navigation ul {
+    padding: 0 0.5rem
+  }
 
   main ul li img {
     max-width: 10rem;
